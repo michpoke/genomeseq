@@ -1,9 +1,9 @@
-#step 0: compare remove duplicate strings. (done!)
-#step 1: compare string #(i) with all strings.
-#step 2: if 3 or more characters ANYWHERE in the string are a perfect match with another string (compared string, or CSTRING)--
-#step 3: compare the rest of the previous and following characters after the match in the ISTRING  with the rest of the characters in the CSTRING.
-#step 3 cont:  if they DO NOT  match, skip the CSTRING and move onto the next one.
-#(challenge here -- telling python to ignore empty characters / the lack of characters before or after the character match)
+# step 0: compare remove duplicate strings. (done!)
+# step 1: compare string #(i) with all strings.
+# step 2: if 3 or more characters ANYWHERE in the string are a perfect match with another string (compared string, or CSTRING)--
+# step 3: compare the rest of the previous and following characters after the match in the ISTRING  with the rest of the characters in the CSTRING.
+# step 3 cont:  if they DO NOT  match, skip the CSTRING and move onto the next one.
+# (challenge here -- telling python to ignore empty characters / the lack of characters before or after the character match)
 # step 4: if they DO match, combine the strings, then add it to another list (LISTB). remove original 2 strings from original list (LISTA)
 # step 5: after loop runs, add all remaining strings in LISTA to LISTB..
 # step 6: compare all the (now-combined) strings in LISTB. follow same process as above.
